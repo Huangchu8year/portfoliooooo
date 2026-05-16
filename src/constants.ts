@@ -179,7 +179,7 @@ export const DATA: PortfolioData = {
       thumbnail: '/portfoliooooo/assets/deepfake-handbook.jpg',
       responsibilities: '排版',
       responsibilitiesEn: 'Layout',
-      link: '/portfoliooooo/assets/deepfake-handbook.pdf'
+      link: import.meta.env.BASE_URL + 'assets/deepfake-handbook.pdf'
     },
     {
       id: 'i01',
@@ -193,7 +193,7 @@ export const DATA: PortfolioData = {
       thumbnail: '/portfoliooooo/assets/ordinary-light-layout.jpg',
       responsibilities: '设计',
       responsibilitiesEn: 'Design',
-      link: '/portfoliooooo/assets/ordinary-light-layout.pdf'
+      link: import.meta.env.BASE_URL + 'assets/ordinary-light-layout.pdf'
     },
     {
       id: 'i02',
@@ -207,7 +207,7 @@ export const DATA: PortfolioData = {
       thumbnail: '/portfoliooooo/assets/star-ticket-design.jpg',
       responsibilities: '设计',
       responsibilitiesEn: 'Design',
-      link: '/portfoliooooo/assets/star-ticket-design.pdf'
+      link: import.meta.env.BASE_URL + 'assets/star-ticket-design.pdf'
     }
   ],
 
