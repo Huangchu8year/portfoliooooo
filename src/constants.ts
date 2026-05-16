@@ -217,9 +217,10 @@ export const DATA: PortfolioData = {
       responsibilities: '设计',
       responsibilitiesEn: "Design",
       link: import.meta.env.BASE_URL + 'assets/star-ticket-design.pdf'
-    }
-  ],
- id: 'i1',
+    },
+
+    {
+      id: 'i1',
       category: 'image',
       type: '商业宣传海报设计',
       typeEn: 'Commercial Poster Design',
@@ -302,6 +303,7 @@ export const DATA: PortfolioData = {
       responsibilitiesEn: 'Photography, Layout Design, Frontend Development',
       link: 'https://huangchu8year.github.io/ordinary-heroes/'
     }
+  ],
 
   experiences: [
     {
