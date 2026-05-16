@@ -638,7 +638,7 @@ export default function App() {
 
                 {/* Folder Icon - Clickable Resume Link */}
                 <motion.a 
-                  href={import.meta.env.BASE_URL + "assets/resume.pdf"}
+                  href={import.meta.env.BASE_URL + "resume.pdf"}
                   target="_blank"
                   rel="noopener noreferrer"
                   initial={{ opacity: 0, scale: 0.8 }}
