@@ -8,6 +8,7 @@ export const DATA: PortfolioData = {
     subtitle: "",
     subtitleEn: "",
   },
+
   skills: [
     {
       category: "视频制作",
@@ -30,10 +31,12 @@ export const DATA: PortfolioData = {
       items: ["同人企划", "谷圈运营", "IP内容运营"]
     }
   ],
+
   about: {
     content: "在这里，我既是记录者也是创作者。从新闻现场的冷静观察，到同人圈层的热血创作，我试图将构成主义的理性与包豪斯的实用功能结合。我的作品不仅是视觉的呈现，更是对当代二次元内容生态与传播实践的深度参与。",
     contentEn: "Here, I am both a chronicler and a creator. From cold observations at news sites to passionate creations in fanzine circles, I strive to combine the rationality of Constructivism with the functional utility of Bauhaus. My work is not just a visual presentation, but a deep participation in contemporary ACG content ecology and communication practices.",
   },
+
   contact: {
     methods: [
       { label: "邮箱 / Email", value: "1280605442@qq.com / 1280605442@gmail.com", icon: "Mail" },
@@ -41,6 +44,7 @@ export const DATA: PortfolioData = {
       { label: "电话 / Phone", value: "18708507010 / 15103067949", icon: "Linkedin" },
     ],
   },
+
   works: [
     {
       id: 'v1',
@@ -52,7 +56,7 @@ export const DATA: PortfolioData = {
       titleEn: 'Journey to the West',
       description: '经典科幻电影的创意混剪，通过节奏与画面的重新组合展现宇宙探索的浪漫与荒诞。',
       descriptionEn: 'Creative remix of the classic sci-fi film, reimagining the romance and absurdity of space exploration through rhythm and visual composition.',
-      thumbnail: '/assets/v1-universe.png',
+      thumbnail: '/portfoliooooo/assets/v1-universe.png',
       responsibilities: '素材筛选、剪辑',
       responsibilitiesEn: 'Footage Selection, Editing',
       link: 'https://pan.baidu.com/s/18VnT2niwhLmdddPKsMisbQ?pwd=ikew'
@@ -65,9 +69,9 @@ export const DATA: PortfolioData = {
       typeEn: 'Advertising Film',
       title: '三福',
       titleEn: 'Sanfu',
-      description: '为大广赛制作的品牌宣传片，从创意策划到拍摄执行的全流程参与。',
-      descriptionEn: 'Brand promotional film produced for the National Advertising Competition, involved in the full process from creative planning to production.',
-      thumbnail: '/assets/v2-sanfu.png',
+      description: '品牌宣传片制作。',
+      descriptionEn: 'Brand promotional film.',
+      thumbnail: '/portfoliooooo/assets/v2-sanfu.png',
       responsibilities: '团队统筹、导演、拍摄、剪辑',
       responsibilitiesEn: 'Team Coordination, Direction, Filming, Editing',
       link: 'https://pan.baidu.com/s/1hVCIZNuksOapyCn2O3zKhQ?pwd=hscc'
@@ -80,9 +84,9 @@ export const DATA: PortfolioData = {
       typeEn: 'Cat Meme Science',
       title: '猫meme科普',
       titleEn: 'Cat Meme Explainer',
-      description: '以猫meme为载体的趣味科普短视频，用轻松幽默的方式传递知识。',
-      descriptionEn: 'Fun science explainer video using cat memes, delivering knowledge in a lighthearted and humorous way.',
-      thumbnail: '/assets/v4-coconut.png',
+      description: '趣味科普视频。',
+      descriptionEn: 'Fun science explainer video.',
+      thumbnail: '/portfoliooooo/assets/v4-coconut.png',
       responsibilities: '文案策划、剪辑、配音',
       responsibilitiesEn: 'Scriptwriting, Editing, Voice-over',
       link: 'https://pan.baidu.com/s/1ZkoClMPfZB6UvQHGAEgttg?pwd=ue5a'
@@ -95,26 +99,26 @@ export const DATA: PortfolioData = {
       typeEn: 'Documentary',
       title: '椰影匠心',
       titleEn: 'Coconut Shadow Craftsmanship',
-      description: '探讨传统手工艺在现代都市缝隙中的生存状态，入选《中国故事青年说》栏目系列展播。',
-      descriptionEn: 'Exploring the survival of traditional handicrafts in the cracks of modern cities. Selected for "Chinese Stories Youth Talk" series.',
-      thumbnail: '/assets/v3-catmeme.png',
-      responsibilities: '采访、拍摄、剪辑、后期色调',
-      responsibilitiesEn: 'Interviewing, Filming, Editing, Post-production Coloring',
+      description: '纪录片作品。',
+      descriptionEn: 'Documentary work.',
+      thumbnail: '/portfoliooooo/assets/v3-catmeme.png',
+      responsibilities: '采访、拍摄、剪辑',
+      responsibilitiesEn: 'Interviewing, Filming, Editing',
       link: 'https://pan.baidu.com/s/1rGLUhqER42dBmmtt5GNB9A?pwd=wvsi'
     },
     {
       id: 'v5',
       category: 'video',
       subCategory: 'interview',
-      type: '综艺式人物专访',
-      typeEn: 'Variety-style Interview',
+      type: '人物专访',
+      typeEn: 'Interview',
       title: '人物专访',
       titleEn: 'Portrait Interview',
-      description: '以综艺化手法呈现的人物专访，融合趣味互动与深度对话。',
-      descriptionEn: 'A portrait interview presented with variety show techniques, blending fun interactions with in-depth conversations.',
-      thumbnail: '/assets/v5-interview.png',
-      responsibilities: '策划、采访、拍摄、后期',
-      responsibilitiesEn: 'Planning, Interviewing, Filming, Post-production',
+      description: '人物专访作品。',
+      descriptionEn: 'Interview work.',
+      thumbnail: '/portfoliooooo/assets/v5-interview.png',
+      responsibilities: '策划、采访、拍摄',
+      responsibilitiesEn: 'Planning, Interviewing, Filming',
       link: 'https://pan.baidu.com/s/15q19C8ea8AL3UqJ8dbw5EQ?pwd=hk9f'
     },
     {
@@ -124,12 +128,12 @@ export const DATA: PortfolioData = {
       type: '微电影',
       typeEn: 'Short Film',
       title: '呦呦鹿鸣',
-      titleEn: 'The Deer\'s Call',
-      description: '以诗意镜头语言讲述的微电影作品，探索人与自然的情感联结。',
-      descriptionEn: 'A short film told through poetic cinematography, exploring the emotional connection between humans and nature.',
-      thumbnail: '/assets/v6-deer.png',
-      responsibilities: '导演、编剧、拍摄、剪辑',
-      responsibilitiesEn: 'Directing, Screenwriting, Filming, Editing',
+      titleEn: "The Deer's Call",
+      description: '微电影作品。',
+      descriptionEn: 'Short film.',
+      thumbnail: '/portfoliooooo/assets/v6-deer.png',
+      responsibilities: '导演、剪辑',
+      responsibilitiesEn: 'Directing, Editing',
       link: 'https://pan.baidu.com/s/1QvD4cV6MU7AnGCYE2Rm7Zw?pwd=ujnd'
     },
     {
@@ -140,55 +144,56 @@ export const DATA: PortfolioData = {
       typeEn: 'Creative Short',
       title: '精分',
       titleEn: 'Split',
-      description: '以"精分"为主题的创意短片，通过分屏与特效手法表现内心世界的多面性。',
-      descriptionEn: 'A creative short film themed around "split personality", using split-screen and VFX to portray the multiplicity of the inner world.',
-      thumbnail: '/assets/v7-split.png',
-      responsibilities: '文案策划、拍摄、剪辑、后期特效',
-      responsibilitiesEn: 'Scriptwriting, Filming, Editing, Post-production VFX',
+      description: '创意短片。',
+      descriptionEn: 'Creative short film.',
+      thumbnail: '/portfoliooooo/assets/v7-split.png',
+      responsibilities: '拍摄、剪辑',
+      responsibilitiesEn: 'Filming, Editing',
       link: 'https://pan.baidu.com/s/1u6ssPSDb1KyEjLuA2l5X_Q?pwd=udth'
     },
     {
       id: 'v8',
       category: 'video',
       subCategory: 'news',
-      type: '学院新闻报道',
-      typeEn: 'Campus News Report',
+      type: '新闻报道',
+      typeEn: 'News Report',
       title: '学院新闻',
-      titleEn: 'School of Journalism News',
-      description: '院青年融媒体中心出品，负责选题规划、内容采编及后期审核的校园新闻报道。',
-      descriptionEn: 'Produced by the Campus Youth Media Center, covering topic planning, content editing, and final review for campus news reports.',
-      thumbnail: '/assets/v8-news.png',
-      responsibilities: '选题策划、采编、审核',
-      responsibilitiesEn: 'Topic Planning, Editing, Review',
+      titleEn: 'School News',
+      description: '校园新闻报道。',
+      descriptionEn: 'Campus news report.',
+      thumbnail: '/portfoliooooo/assets/v8-news.png',
+      responsibilities: '采编',
+      responsibilitiesEn: 'Editing',
       link: 'https://pan.baidu.com/s/1MWMVwHPeejsnUM4bUtzfJw?pwd=u6kn'
     },
+
     {
       id: 'i0',
       category: 'image',
-      type: '宣传手册设计',
+      type: '手册设计',
       typeEn: 'Handbook Design',
       title: 'Deep Fake',
-      titleEn: 'Deep Fake in Journalism',
-      description: '《深度伪造在新闻业中的应用》宣传手册，从技术介绍、应用场景到伦理挑战的完整排版设计，共9页。',
-      descriptionEn: 'Promotional handbook on "Deep Fake in Journalism", covering technology introduction, applications, and ethical challenges. 9 pages in total.',
-      thumbnail: '/assets/deepfake-handbook.jpg',
-      responsibilities: '排版设计',
-      responsibilitiesEn: 'Layout Design',
-      link: '/assets/deepfake-handbook.pdf'
+      titleEn: 'Deep Fake',
+      description: '设计作品。',
+      descriptionEn: 'Design work.',
+      thumbnail: '/portfoliooooo/assets/deepfake-handbook.jpg',
+      responsibilities: '排版',
+      responsibilitiesEn: 'Layout',
+      link: '/portfoliooooo/assets/deepfake-handbook.pdf'
     },
     {
       id: 'i01',
       category: 'image',
-      type: '专题摄影排版设计',
-      typeEn: 'Photo Layout Design',
+      type: '排版设计',
+      typeEn: 'Layout Design',
       title: '平凡之光',
       titleEn: 'Light of the Ordinary',
-      description: '致敬平凡岗位的专题排版设计，以诗意文字与视觉排版结合，记录保安、保洁、食堂阿姨的日常。',
-      descriptionEn: 'Feature layout design paying tribute to ordinary workers — security guards, cleaners, and cafeteria staff — through poetic text and visual composition.',
-      thumbnail: '/assets/ordinary-light-layout.jpg',
-      responsibilities: '摄影、排版设计',
-      responsibilitiesEn: 'Photography, Layout Design',
-      link: '/assets/ordinary-light-layout.pdf'
+      description: '排版设计作品。',
+      descriptionEn: 'Layout design work.',
+      thumbnail: '/portfoliooooo/assets/ordinary-light-layout.jpg',
+      responsibilities: '设计',
+      responsibilitiesEn: 'Design',
+      link: '/portfoliooooo/assets/ordinary-light-layout.pdf'
     },
     {
       id: 'i02',
@@ -197,98 +202,15 @@ export const DATA: PortfolioData = {
       typeEn: 'Ticket Design',
       title: '明星票根设计',
       titleEn: 'Celebrity Ticket Design',
-      description: '创意明星票根视觉设计，融合排版美学与粉丝文化元素。',
-      descriptionEn: 'Creative celebrity ticket stub design, blending typographic aesthetics with fan culture elements.',
-      thumbnail: '/assets/star-ticket-design.jpg',
-      responsibilities: '视觉设计',
-      responsibilitiesEn: 'Visual Design',
-      link: '/assets/star-ticket-design.pdf'
-    },
-    {
-      id: 'i1',
-      category: 'image',
-      type: '商业宣传海报设计',
-      typeEn: 'Commercial Poster Design',
-      title: '爱华仕',
-      titleEn: 'OIWAS',
-      description: '为爱华仕品牌设计的创意广告海报，展现年轻活力的旅行主题。',
-      descriptionEn: 'Creative advertisement poster for OIWAS brand, showcasing youthful travel theme.',
-      thumbnail: '/assets/aihuashi-poster.png',
-      responsibilities: '海报设计',
-      responsibilitiesEn: 'Poster Design',
-      link: '#'
-    },
-    {
-      id: 'i2',
-      category: 'image',
-      type: '节日海报设计',
-      typeEn: 'Festival Poster Design',
-      title: '国家宪法日',
-      titleEn: 'Constitution Day',
-      description: '国家宪法日宣传海报设计，融合传统与现代元素。',
-      descriptionEn: 'Constitution Day promotional poster design, blending traditional and modern elements.',
-      thumbnail: '/assets/constitution-day.jpg',
-      responsibilities: '海报设计',
-      responsibilitiesEn: 'Poster Design',
-      link: '#'
-    },
-    {
-      id: 'i3',
-      category: 'image',
-      type: '节日海报设计',
-      typeEn: 'Festival Poster Design',
-      title: '中秋节',
-      titleEn: 'Mid-Autumn',
-      description: '中秋节节日海报，采用剪纸风格的传统美学设计。',
-      descriptionEn: 'Mid-Autumn Festival poster with traditional paper-cut aesthetic design.',
-      thumbnail: '/assets/mid-autumn.png',
-      responsibilities: '海报设计',
-      responsibilitiesEn: 'Poster Design',
-      link: '#'
-    },
-    {
-      id: 'd1',
-      category: 'digital',
-      type: 'Q版表情包网站',
-      typeEn: 'Chibi Sticker Site',
-      title: 'Q版表情包创作',
-      titleEn: 'Chibi Emoji Creation',
-      description: '二次元同人表情包展示网站，10款原创Q版角色表情，支持点击放大预览。',
-      descriptionEn: 'ACG fan-made emoji showcase site featuring 10 original chibi character stickers with click-to-enlarge preview.',
-      thumbnail: '/assets/moe-awakening.png',
-      responsibilities: '表情包原创绘制、UI设计、前端开发',
-      responsibilitiesEn: 'Original Sticker Illustration, UI Design, Frontend Development',
-      link: 'https://huangchu8year.github.io/-/#showcase'
-    },
-    {
-      id: 'd2',
-      category: 'digital',
-      type: '数据新闻网站',
-      typeEn: 'Data Journalism Site',
-      title: '航天小镇蝶变',
-      titleEn: 'Aerospace Town Transformation',
-      description: '海南文昌航天产业七年数据可视化平台，展示GDP、旅游收入、民宿数量等关键指标趋势。',
-      descriptionEn: 'Seven-year data visualization platform for Hainan Wenchang aerospace industry, displaying GDP, tourism revenue, homestay trends.',
-      thumbnail: '/assets/merch-circle.png',
-      responsibilities: '数据可视化设计、前端开发',
-      responsibilitiesEn: 'Data Visualization Design, Frontend Development',
-      link: 'https://5x6qjky6jit7q.ok.kimi.link/data.html'
-    },
-    {
-      id: 'd3',
-      category: 'digital',
-      type: '专题摄影网站',
-      typeEn: 'Photo Story Site',
-      title: '平凡铸伟大',
-      titleEn: 'Ordinary Heroes',
-      description: '致敬平凡岗位坚守者的专题摄影网站，记录保安、保洁、手工艺人等普通人的日常故事。',
-      descriptionEn: 'Photo story site honoring ordinary workers—security guards, cleaners, craftsmen—documenting their daily stories.',
-      thumbnail: '/assets/ordinary-heroes.png',
-      responsibilities: '摄影、排版设计、前端开发',
-      responsibilitiesEn: 'Photography, Layout Design, Frontend Development',
-      link: 'https://huangchu8year.github.io/ordinary-heroes/'
+      description: '票根设计作品。',
+      descriptionEn: 'Ticket design work.',
+      thumbnail: '/portfoliooooo/assets/star-ticket-design.jpg',
+      responsibilities: '设计',
+      responsibilitiesEn: 'Design',
+      link: '/portfoliooooo/assets/star-ticket-design.pdf'
     }
   ],
+
   experiences: [
     {
       id: 'e1',
@@ -297,8 +219,8 @@ export const DATA: PortfolioData = {
       role: '主创/负责人',
       roleEn: 'Main Creator/Manager',
       period: '2023 - 2024',
-      description: '负责同人志企划、周边设计与线下宣发。在CD26、CP28、CP30展位进行实操，参与从设计到落地全流程。带领团队完成漫展摊位的搭建、布置和撤展工作，获得主办方和用户的一致好评。',
-      descriptionEn: 'Responsible for fanzine projects, merch design, and offline promotion. Actually operated at CD26, CP28, CP30, participating in the entire process from design to implementation. Led team to complete booth setup and received positive feedback.'
+      description: '同人创作与漫展运营经验。',
+      descriptionEn: 'Fan creation and booth experience.'
     }
   ]
 };
