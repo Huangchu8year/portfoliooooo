@@ -219,6 +219,89 @@ export const DATA: PortfolioData = {
       link: import.meta.env.BASE_URL + 'assets/star-ticket-design.pdf'
     }
   ],
+ id: 'i1',
+      category: 'image',
+      type: '商业宣传海报设计',
+      typeEn: 'Commercial Poster Design',
+      title: '爱华仕',
+      titleEn: 'OIWAS',
+      description: '为爱华仕品牌设计的创意广告海报，展现年轻活力的旅行主题。',
+      descriptionEn: 'Creative advertisement poster for OIWAS brand, showcasing youthful travel theme.',
+      thumbnail: '/assets/aihuashi-poster.png',
+      responsibilities: '海报设计',
+      responsibilitiesEn: 'Poster Design',
+      link: '#'
+    },
+    {
+      id: 'i2',
+      category: 'image',
+      type: '节日海报设计',
+      typeEn: 'Festival Poster Design',
+      title: '国家宪法日',
+      titleEn: 'Constitution Day',
+      description: '国家宪法日宣传海报设计，融合传统与现代元素。',
+      descriptionEn: 'Constitution Day promotional poster design, blending traditional and modern elements.',
+      thumbnail: '/assets/constitution-day.jpg',
+      responsibilities: '海报设计',
+      responsibilitiesEn: 'Poster Design',
+      link: '#'
+    },
+    {
+      id: 'i3',
+      category: 'image',
+      type: '节日海报设计',
+      typeEn: 'Festival Poster Design',
+      title: '中秋节',
+      titleEn: 'Mid-Autumn',
+      description: '中秋节节日海报，采用剪纸风格的传统美学设计。',
+      descriptionEn: 'Mid-Autumn Festival poster with traditional paper-cut aesthetic design.',
+      thumbnail: '/assets/mid-autumn.png',
+      responsibilities: '海报设计',
+      responsibilitiesEn: 'Poster Design',
+      link: '#'
+    },
+    {
+      id: 'd1',
+      category: 'digital',
+      type: 'Q版表情包网站',
+      typeEn: 'Chibi Sticker Site',
+      title: 'Q版表情包创作',
+      titleEn: 'Chibi Emoji Creation',
+      description: '二次元同人表情包展示网站，10款原创Q版角色表情，支持点击放大预览。',
+      descriptionEn: 'ACG fan-made emoji showcase site featuring 10 original chibi character stickers with click-to-enlarge preview.',
+      thumbnail: '/assets/moe-awakening.png',
+      responsibilities: '表情包原创绘制、UI设计、前端开发',
+      responsibilitiesEn: 'Original Sticker Illustration, UI Design, Frontend Development',
+      link: 'https://huangchu8year.github.io/-/#showcase'
+    },
+    {
+      id: 'd2',
+      category: 'digital',
+      type: '数据新闻网站',
+      typeEn: 'Data Journalism Site',
+      title: '航天小镇蝶变',
+      titleEn: 'Aerospace Town Transformation',
+      description: '海南文昌航天产业七年数据可视化平台，展示GDP、旅游收入、民宿数量等关键指标趋势。',
+      descriptionEn: 'Seven-year data visualization platform for Hainan Wenchang aerospace industry, displaying GDP, tourism revenue, homestay trends.',
+      thumbnail: '/assets/merch-circle.png',
+      responsibilities: '数据可视化设计、前端开发',
+      responsibilitiesEn: 'Data Visualization Design, Frontend Development',
+      link: 'https://5x6qjky6jit7q.ok.kimi.link/data.html'
+    },
+    {
+      id: 'd3',
+      category: 'digital',
+      type: '专题摄影网站',
+      typeEn: 'Photo Story Site',
+      title: '平凡铸伟大',
+      titleEn: 'Ordinary Heroes',
+      description: '致敬平凡岗位坚守者的专题摄影网站，记录保安、保洁、手工艺人等普通人的日常故事。',
+      descriptionEn: 'Photo story site honoring ordinary workers—security guards, cleaners, craftsmen—documenting their daily stories.',
+      thumbnail: '/assets/ordinary-heroes.png',
+      responsibilities: '摄影、排版设计、前端开发',
+      responsibilitiesEn: 'Photography, Layout Design, Frontend Development',
+      link: 'https://huangchu8year.github.io/ordinary-heroes/'
+    }
 
   experiences: [
     {
